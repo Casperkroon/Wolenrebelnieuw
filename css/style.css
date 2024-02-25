@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: fantasy;
+    min-width: 375px;
+    min-height: 1000px;
+    background-color: #b82baa;
+    height: auto;
+  }
+
+  header {
+    Background-image: url(../Images/headerbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    color: white;
+    text-align: center;
+    Border-bottom: solid;
+    Border-bottom-style: solid;
+    Border-bottom-color: #000;
+  }
+
+  header img{
+    width: auto; 
+    height: 150px;
+  }
+
+  a {
+    color: #ffffff;
+  }
+  h1,h2 {
+    font-size: 30px;
+  }
+  nav {
+    background-color: #eeb12e;
+    width: 100%;
+    text-align: center;
+    position: fixed; 
+    bottom: 0;
+    padding-top: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+    nav li img{
+    width: auto; 
+    height: 80px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  Main{
+    height: auto;
+    margin-top: 10%;
+    margin-right: 10%;
+  }
+
+.leesmeer{
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #d21111;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: solid white 2px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 8px 8px 5px;
+    margin: 5px 0px 50px 40px
+    
+}
+
+.content1 p {
+  margin: 5px;
+}
+
+.content2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: solid white 2px;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 8px 8px 5px;
+  margin: 5px 0px 50px 40px
+  
+}
+
+.content3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: solid white 2px;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 8px 8px 5px;
+  margin: 5px 0px 150px 40px
+}
+.gallerypics {
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.gallerypics:hover {
+  border: 1px solid #777;
+}
+
+.gallerypics img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+article p, article h2 {
+color: #ffffff;
+margin: 10px;
+}
+
+article {
+  border-left: solid white 3px;
+  border-right: solid white 3px;
+  margin: 0px 0px 150px 40px;
+}
+
+.current {
+  border-bottom: solid white 3px;
+}
